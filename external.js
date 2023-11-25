@@ -37,6 +37,7 @@ function appendNum(num){
 
 operationsBTN.forEach( (button) => {
     button.addEventListener('click', (e) => {
+        if(previousNum == "" && currentNum == ""){return};
         handleOperator(button.textContent);
         currentDisplay.value = operator;
         previousDisplay.value = previousNum + " " + operator;
