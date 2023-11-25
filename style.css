@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color:salmon;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 5px solid teal;
+    width: 450px;
+    height: 480px;
+    margin: auto;
+    flex-grow: 1;
+}
+
+.display{
+    width: 430px;
+    height: 70px;
+    margin: 5px 10px;
+    text-align: end;
+    background-color: white;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    /* flex-grow: 1; */
+}
+
+.display2{
+    width: 430px;
+    height: 30px;
+    margin: 5px 10px;
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+
+button{
+    width: 90px;
+    height: 50px;
+    margin: 10px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    text-shadow: 2px;
+    border-radius: 30px;
+    color: white;
+}
+
+button:hover{
+    background-color: teal;
+}
+
+.equals{
+    background-color: goldenrod;
+    width: 200px;
+}
+
+.clear{
+    background-color: aquamarine;
+}
+}
